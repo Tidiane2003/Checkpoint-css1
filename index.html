@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DakarUniversAgence & Le Délice</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-image: url(photo/13.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+    .restaurant-hero {
+      background-image: url(img/7.jpg);
+      background-size: cover;
+      background-position: center;
+      padding: 100px 0;
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    footer {
+      background: chocolate;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+    }
+    .social-icons i {
+      font-size: 1.4rem;
+      margin: 0 10px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">DakarUniversAgence</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tours">Circuits</a></li>
+        <li class="nav-item"><a class="nav-link" href="#restaurant">Restaurant</a></li>
+        <li class="nav-item"><a class="nav-link" href="#apropos-restaurant">À propos du restaurant</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero (Landing) -->
+<section class="hero text-center">
+  <h1 class="display-3">Explorez le monde avec DakarUniversAgence</h1>
+  <p class="lead">Voyages, expériences… et gastronomie</p>
+  <a href="#destinations" class="btn btn-light btn-lg mt-4">Nos offres</a>
+</section>
+
+<!-- Destinations -->
+<section id="destinations" class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Destinations populaires</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/8.jpg" class="card-img-top" alt="Rome">
+          <div class="card-body">
+            <h5 class="card-title">Rome, Italie</h5>
+            <p class="card-text">Histoire, art et cuisine inoubliable.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/4.jpg" class="card-img-top" alt="Argentine">
+          <div class="card-body">
+            <h5 class="card-title">Argentine</h5>
+            <p class="card-text">Une culture unique entre tradition et futurisme.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/1.jpg" class="card-img-top" alt="Costa Rica">
+          <div class="card-body">
+            <h5 class="card-title">Costa Rica</h5>
+            <p class="card-text"> La danse demeure une tradition culturelle importante au Costa Rica.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/2.jpg" class="card-img-top" alt="Salvador">
+          <div class="card-body">
+            <h5 class="card-title">Salvador</h5>
+            <p class="card-text">on compte les feux d'artifice de Noël,
+                 neuf nuits de prière pour les âmes des défunts et le recours à la médecine traditionnelle pour soigner les maladies courantes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/3.jpg" class="card-img-top" alt="Pérou">
+          <div class="card-body">
+            <h5 class="card-title">Pérou</h5>
+            <p class="card-text">La culture péruvienne est un magnifique mélange de traditions hispaniques et autochtones .</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/5.jpg" class="card-img-top" alt="Chili">
+          <div class="card-body">
+            <h5 class="card-title">Chili</h5>
+            <p class="card-text">La musique et la danse sont au cœur de la culture chilienne, 
+                la pie de cueca étant la danse folklorique traditionnelle la plus emblématique.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/7.jpg" class="card-img-top" alt="Grèce">
+          <div class="card-body">
+            <h5 class="card-title">Grèce</h5>
+            <p class="card-text">Les arts, 
+                de la sculpture antique aux danses traditionnelles comme le sirtaki, illustrent le riche héritage de ce pays.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/9.jpg" class="card-img-top" alt="Espagne">
+          <div class="card-body">
+            <h5 class="card-title">Espagne</h5>
+            <p class="card-text">Le paseo (littéralement “la promenade'') est un rituel réputé dans toute la péninsule Ibérique.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/10.jpg" class="card-img-top" alt="France">
+          <div class="card-body">
+            <h5 class="card-title">France</h5>
+            <p class="card-text">La gastronomie française est mondialement connue, et certaines pratiques culinaires sont devenues de véritables institutions. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/11.jpg" class="card-img-top" alt="Warsaw">
+          <div class="card-body">
+            <h5 class="card-title">Pologne</h5>
+            <p class="card-text"> Leur hospitalité, fondée sur l'adage: "Un hôte chez soi, 
+                c'est Dieu dans la maison", n'est pas une notion usurpée.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/12.jpg" class="card-img-top" alt="Munich">
+          <div class="card-body">
+            <h5 class="card-title">Allemagne</h5>
+            <p class="card-text">le style de vie allemand combine les valeurs traditionnelles d’efficacité, de ponctualité, d’intimité et d’appréciation de l’ordre dans la vie quotidienne, 
+                avec des valeurs plus progressistes comme la durabilité, la conscience environnementale et l’égalité sociale.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="photo/6.jpg" class="card-img-top" alt="Rio">
+          <div class="card-body">
+            <h5 class="card-title">Rio, Brésil</h5>
+            <p class="card-text">Plages, samba et carnaval toute l’année.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tours / Circuits -->
+<section id="tours" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Circuits organisés</h2>
+    <div class="accordion" id="accordionTours">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+            Beautés d’Amérique du Sud
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            Voyage à travers le Pérou, l’Argentine, le Chili, le Brésil, le Salvador et la Costa Rica.  
+            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Voir les détails</a>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2">
+            Croisière Méditerranéenne, l'Europe
+          </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Découvrez la Grèce, l’Italie et l’Espagne en croisière de luxe, la France, la Pologne et l'Allemagne. 
+            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Voir les détails</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Restaurant Section -->
+<section id="restaurant">
+  <div class="restaurant-hero">
+    <h2 class="display-4">Le Délice - Restaurant Partenaire</h2>
+    <p>Une expérience gastronomique intégrée à vos voyages</p>
+    <a href="#menu" class="btn btn-outline-light btn-lg mt-3">Découvrir le menu</a>
+  </div>
+
+  <section id="menu" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Menu croustillante</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/1.jpg" class="card-img-top" alt="plat 1">
+            <div class="card-body">
+            <h5 class="card-title">Filet de bœuf</h5>
+            <p class="card-text">Viande tendre grillée à la perfection avec sauce au poivre.</p>
+            <p class="text-muted">25€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/2.jpg" class="card-img-top" alt="plat 2">
+            <div class="card-body">
+            <h5 class="card-title">Saumon Grillé</h5>
+            <p class="card-text">Servi avec légumes rôtis et riz parfumé.</p>
+            <p class="text-muted">22€</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/3.jpg" class="card-img-top" alt="plat 3">
+            <div class="card-body">
+            <h5 class="card-title">Tarte Tatin</h5>
+            <p class="card-text">Pommes caramélisées et pâte croustillante. Servie chaude.</p>
+            <p class="text-muted">9€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- Section À propos du restaurant -->
+<section id="apropos-restaurant" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-left mb-4">À propos de notre restaurant</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="img/8.jpg" class="img-fluid rounded" alt="À propos du restaurant">
+        </div>
+        <div class="col-md-6">
+          <p>
+            <strong>Le Délice</strong>, un restaurant partenaire de DakarUniversAgence, vous invite à un voyage culinaire autour du monde.
+            Nos chefs passionnés vous proposent une cuisine internationale, pour une expérience gustative inoubliable.
+            Profitez d'une expérience gastronomique complète et unique, en collaboration avec les circuits de notre agence.
+          </p>
+          <p>
+            En collaboration avec les circuits proposés par notre agence, nous vous offrons une expérience gastronomique complète, unique et inoubliable.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Contact Form -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Contactez-nous</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Nom complet">
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="Adresse email">
+      </div>
+      <div class="col-md-6">
+        <input type="destination" class="form-control" placeholder="Destination">
+      </div>
+      <div class="col-12">
+        <textarea class="form-control" rows="4" placeholder="Message ou demande spéciale"></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 DakarUniversAgence & Le Délice. Tous droits réservés.</p>
+  <div class="social-icons mt-2">
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-twitter"></i>
+  </div>
+</footer>
+
+<!-- Bootstrap JS & Icons -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
